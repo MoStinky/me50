@@ -1,0 +1,91 @@
+
+/* List item styling */
+h4 {
+    text-align: right;
+}
+
+ul.a {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+ }
+
+a:hover {
+    text-decoration: underline;
+ }
+
+a:visited {
+    color:black;
+ }
+
+
+/* Advanced Search styling */
+
+.upper-left-title{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+input[type="text"] {
+    font-size: 13px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    outline: none;
+}
+
+div.input-text-rows {
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;  
+    min-height: 41px;
+    width: 50%;
+}
+
+.input-size {
+    width: 450px;
+    height: 22px;
+    border-color: rgb(135, 138, 145);
+    border-style: solid;
+    border-width: thin;
+}
+
+div.input-label-rows {
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    float: left;
+    width: 25%;
+    line-height: 20px;
+}
+
+div.top-row {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 25%;
+}
+
+div.submit-style {
+    text-align: right;
+}
+
+.in-line-submit-style {
+    color: white;
+    background-color: rgb(76,139,245);
+    height: 30px;
+    width: 115px;
+    font-size: 11px;
+    border-radius: 2pt;
+    border-style: solid;
+}
+
+form.form-style {
+    max-width: 625px;
+}
