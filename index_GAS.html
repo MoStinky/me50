@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <!-- <link rel="stylesheet" href="GAS-style.css"> -->
+        <link rel="stylesheet" href="GAS-style2.css">
+    </head>
+    <body>
+        <h4>
+            <nav>
+                <ul class="a">
+                    <li><a href=index.html>Google Search</a></li>
+                    <li><a href=index_GIS.html>Images</a></li>
+                </ul> 
+            </nav>
+        </h4>
+        <div class="upper-left-title">
+            <label style="margin-left:10px"> Advanced Search</label>
+        </div>
+        <div>
+            <form id="form-position" style="margin-left:55px" action="https://google.com/search" method="GET" class="form-style">
+                <div class="top-row">
+                    <span> Find pages with...</span>
+                </div>
+                <div>
+                    <div>
+                        <div class="input-label-rows">
+                            <label>all these words:</label>
+                        </div>
+                        <div class="input-text-rows">
+                            <input type="text" name="as_q" class="input-size">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-label-rows">
+                            <label>this exact word or phrase:</label>
+                        </div>
+                        <div class="input-text-rows">
+                            <input type="text" name="as_epq" class="input-size">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-label-rows">
+                            <label>any of these words:</label>
+                        </div>
+                        <div class="input-text-rows">
+                            <input type="text" name="as_oq" class="input-size">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-label-rows">
+                            <label>none of these words:</label>
+                        </div>
+                        <div class="input-text-rows">
+                            <input type="text" name="as_eq" class="input-size">
+                        </div>
+                    </div>
+                </div>
+                <div class="submit-style">
+                    <input type="submit" value="Advanced Search" class="in-line-submit-style">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
